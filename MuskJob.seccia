@@ -351,9 +351,9 @@
 "uid": "L_LOST",
 "graph": {
 "board": {
-"nextid": 38,
-"x": 579,
-"y": 403,
+"nextid": 107,
+"x": 656,
+"y": 491,
 "boxes": [
 {
 "type": 257,
@@ -370,8 +370,8 @@
 {
 "type": 1287,
 "id": 3,
-"x": -145,
-"y": -90,
+"x": -307,
+"y": -131,
 "plugs": [
 {
 "id": 4,
@@ -388,8 +388,8 @@
 {
 "type": 788,
 "id": 5,
-"x": 61,
-"y": -108,
+"x": -82,
+"y": -131,
 "plugs": [
 {
 "id": 6,
@@ -407,8 +407,8 @@
 {
 "type": 788,
 "id": 15,
-"x": 26,
-"y": 83,
+"x": -88,
+"y": 21,
 "plugs": [
 {
 "id": 16,
@@ -429,8 +429,8 @@
 {
 "type": 1291,
 "id": 20,
-"x": -173,
-"y": 84,
+"x": -314,
+"y": 17,
 "plugs": [
 {
 "id": 21,
@@ -448,8 +448,8 @@
 {
 "type": 786,
 "id": 27,
-"x": 196,
-"y": 84,
+"x": 144,
+"y": 20,
 "plugs": [
 {
 "id": 28,
@@ -467,8 +467,8 @@
 {
 "type": 1287,
 "id": 30,
-"x": -309,
-"y": -284,
+"x": -321,
+"y": -298,
 "plugs": [
 {
 "id": 31,
@@ -485,8 +485,8 @@
 {
 "type": 783,
 "id": 32,
-"x": -120,
-"y": -294,
+"x": -128,
+"y": -306,
 "plugs": [
 {
 "id": 33,
@@ -496,7 +496,7 @@
 "id": 34,
 "type": 3,
 "trgs": [
-36
+76
 ]
 }
 ],
@@ -512,8 +512,8 @@
 {
 "type": 781,
 "id": 35,
-"x": 37,
-"y": -291,
+"x": 332,
+"y": -237,
 "plugs": [
 {
 "id": 36,
@@ -524,7 +524,112 @@
 "type": 3
 }
 ],
-"dialog": "D_LOST"
+"dialog": "D_LOST",
+"sentence": "1"
+},
+{
+"type": 775,
+"id": 42,
+"x": -94,
+"y": 201,
+"plugs": [
+{
+"id": 43,
+"type": 2
+},
+{
+"id": 44,
+"type": 3
+}
+],
+"scene": "S_HEAD"
+},
+{
+"type": 1290,
+"id": 50,
+"x": -306,
+"y": 189,
+"plugs": [
+{
+"id": 51,
+"type": 3,
+"trgs": [
+43
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_LOST",
+"item": "I_SERINGUE",
+"instance": "HERO"
+},
+{
+"type": 1034,
+"id": 64,
+"x": 118,
+"y": -162,
+"plugs": [
+{
+"id": 65,
+"type": 2
+},
+{
+"id": 66,
+"type": 3
+},
+{
+"id": 67,
+"type": 3
+}
+],
+"player": "P_HERO",
+"item": "I_SERINGUE"
+},
+{
+"type": 781,
+"id": 68,
+"x": 331,
+"y": -352,
+"plugs": [
+{
+"id": 69,
+"type": 2
+},
+{
+"id": 70,
+"type": 3
+}
+],
+"dialog": "D_LOST",
+"sentence": "2"
+},
+{
+"type": 513,
+"id": 75,
+"x": 187,
+"y": -340,
+"plugs": [
+{
+"id": 76,
+"type": 2
+},
+{
+"id": 77,
+"type": 3,
+"trgs": [
+69
+]
+},
+{
+"id": 98,
+"type": 3,
+"trgs": [
+36
+]
+}
+],
+"script": "if has P_HERO I_DIVINE\r\n\tout 0\r\nelse \r\n\tout 1\r\nend ",
+"plugCount": 2
 }
 ]
 }
@@ -23600,10 +23705,26 @@
 },
 "anim": "TALK",
 "speaker": "O_ABDUL_JAFFAR"
+},
+{
+"id": 2,
+"text": {
+"en": "Oh je vois que tu as récupérer la seringue !\r\nUtilise la seringue, peut-être qu'ilse passera quelque chose !"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_ABDUL_JAFFAR",
+"anim": "TALK"
 }
 ]
 },
-"nextID": 2
+"nextID": 3
 }
 }
 ]
