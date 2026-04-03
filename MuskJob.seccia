@@ -223,6 +223,8 @@
 "type": 257,
 "id": 1,
 "name": "start",
+"x": 167,
+"y": 263,
 "plugs": [
 {
 "id": 2,
@@ -237,7 +239,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 200,
+"x": 1009,
+"y": 344,
 "plugs": [
 {
 "id": 4,
@@ -249,7 +252,8 @@
 "type": 256,
 "id": 5,
 "name": "#puzzle",
-"x": 100,
+"x": 487,
+"y": 362,
 "plugs": [
 {
 "id": 6,
@@ -298,6 +302,8 @@
 "graph": {
 "board": {
 "nextid": 8,
+"x": 227,
+"y": 93,
 "boxes": [
 {
 "type": 257,
@@ -310,37 +316,37 @@
 ]
 },
 {
-"id": 3,
 "type": 1309,
+"id": 3,
 "y": 100,
-"mode": "NEW",
 "plugs": [
 {
-"type": 3,
 "id": 4,
+"type": 3,
 "trgs": [
 6
 ]
 }
-]
+],
+"mode": "NEW"
 },
 {
-"id": 5,
 "type": 789,
+"id": 5,
 "x": 200,
 "y": 100,
-"player": "P_HERO",
-"change": "True",
 "plugs": [
 {
-"type": 2,
-"id": 6
+"id": 6,
+"type": 2
 },
 {
-"type": 3,
-"id": 7
+"id": 7,
+"type": 3
 }
-]
+],
+"player": "P_HERO",
+"change": "True"
 }
 ]
 }
@@ -351,9 +357,9 @@
 "uid": "L_LOST",
 "graph": {
 "board": {
-"nextid": 107,
-"x": 656,
-"y": 491,
+"nextid": 123,
+"x": 784,
+"y": 628,
 "boxes": [
 {
 "type": 257,
@@ -763,7 +769,7 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 53,
+"zoom": 19,
 "x": -82,
 "y": -81,
 "nextID": 8
