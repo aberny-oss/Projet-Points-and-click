@@ -450,9 +450,9 @@
 "uid": "L_LOST",
 "graph": {
 "board": {
-"nextid": 2332,
-"x": -212,
-"y": -517,
+"nextid": 2401,
+"x": -5,
+"y": -380,
 "boxes": [
 {
 "type": 257,
@@ -21642,10 +21642,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 35,
 "nextID": 2,
-"x": -429,
-"y": -68
+"x": -313,
+"y": -79
 },
 "layers": {
 "BACK": {
@@ -21746,8 +21746,8 @@
 "",
 ""
 ],
-"x": 960,
-"y": 540,
+"x": 968,
+"y": 542,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
