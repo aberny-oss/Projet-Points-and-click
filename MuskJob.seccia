@@ -2231,9 +2231,9 @@
 "uid": "L_RYTHM",
 "graph": {
 "board": {
-"nextid": 336,
-"x": 345,
-"y": 775,
+"nextid": 421,
+"x": 79,
+"y": 331,
 "boxes": [
 {
 "type": 257,
@@ -2777,7 +2777,7 @@
 "type": 3
 }
 ],
-"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend \r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
 "plugCount": 2
 },
 {
@@ -2802,7 +2802,7 @@
 "type": 3
 }
 ],
-"script": "\r\n\r\nif equal count 5 and if equal $click_toggle \"1\"\r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n ",
+"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5  \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
 "plugCount": 2
 },
 {
@@ -2827,7 +2827,7 @@
 "type": 3
 }
 ],
-"script": "\r\n\r\nif equal count 5 and if equal $click_toggle \"1\"\r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n ",
+"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
 "plugCount": 2
 },
 {
@@ -2852,7 +2852,7 @@
 "type": 3
 }
 ],
-"script": "\r\n\r\nif equal count 5 and if equal $click_toggle \"1\"\r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n ",
+"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
 "plugCount": 2
 },
 {
