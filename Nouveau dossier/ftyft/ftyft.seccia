@@ -213,7 +213,7 @@
 }
 },
 "meta": {
-"nextAssetID": 40
+"nextAssetID": 41
 }
 },
 "puzzle": {
@@ -450,9 +450,9 @@
 "uid": "L_LOST",
 "graph": {
 "board": {
-"nextid": 2613,
-"x": -50,
-"y": -112,
+"nextid": 3441,
+"x": -244,
+"y": -722,
 "boxes": [
 {
 "type": 257,
@@ -2193,27 +2193,28 @@
 "uid": "L_HEADGAME",
 "graph": {
 "board": {
-"nextid": 658,
-"x": 237,
-"y": -60,
+"nextid": 2012,
+"x": 849,
+"y": -39,
 "boxes": [
 {
 "type": 257,
 "id": 1,
-"x": 251,
-"y": 133,
+"x": 250,
+"y": 130,
 "plugs": [
 {
 "id": 2,
 "type": 3
 }
-]
+],
+"script": "set timeupdate 3000\r\nset timehead 1000"
 },
 {
 "type": 261,
 "id": 3,
-"x": -45,
-"y": 294,
+"x": -494,
+"y": 62,
 "plugs": [
 {
 "id": 4,
@@ -2225,44 +2226,10 @@
 ]
 },
 {
-"type": 513,
-"id": 5,
-"x": 533,
-"y": 240,
-"plugs": [
-{
-"id": 6,
-"type": 2
-},
-{
-"id": 7,
-"type": 3
-}
-],
-"script": "math_distance 0 0 970 535 distocenter\r\nalert $distocenter",
-"plugCount": 1
-},
-{
-"type": 1284,
-"id": 17,
-"x": 444,
-"y": 135,
-"plugs": [
-{
-"id": 18,
-"type": 3
-}
-],
-"script": "set distance 0",
-"var_cmp": "==",
-"scene": "S_HEADGAME",
-"mode": "JUMP"
-},
-{
 "type": 1287,
 "id": 39,
-"x": 1,
-"y": 566,
+"x": 454,
+"y": 49,
 "plugs": [
 {
 "id": 40,
@@ -2279,8 +2246,8 @@
 {
 "type": 513,
 "id": 41,
-"x": 58,
-"y": 246,
+"x": -403,
+"y": 49,
 "plugs": [
 {
 "id": 42,
@@ -2300,8 +2267,8 @@
 {
 "type": 513,
 "id": 89,
-"x": 146,
-"y": 201,
+"x": -301,
+"y": 65,
 "plugs": [
 {
 "id": 90,
@@ -2309,17 +2276,20 @@
 },
 {
 "id": 91,
-"type": 3
+"type": 3,
+"trgs": [
+1962
+]
 }
 ],
-"script": "pos_in_pixels S_HEADGAME HERO posX posY\r\nmath_distance 960 540 $posX $posY distance\r\nfdiv distance 2.77\r\nalert $distance\r\nround distance\r\nset_scale S_HEADGAME HERO $distance\r\n",
+"script": "pos_in_pixels S_HEADGAME HERO posX posY\r\nmath_distance 960 540 $posX $posY distance\r\nfdiv distance 2.77\r\nround distance\r\nset a 400\r\nfsub a $distance\r\nfdiv a 399\r\nfmul a 200\r\nfadd a 100\r\nfmul a 0.7071\r\nround a\r\nalert $a\r\nclamp distance 60 400\r\nset_speed S_HEADGAME HERO $a $a\r\nset_scale S_HEADGAME HERO $distance\r\n",
 "plugCount": 1
 },
 {
 "type": 513,
 "id": 122,
-"x": 339,
-"y": 260,
+"x": 266,
+"y": 507,
 "plugs": [
 {
 "id": 123,
@@ -2336,8 +2306,8 @@
 {
 "type": 263,
 "id": 140,
-"x": 220,
-"y": 304,
+"x": 147,
+"y": 551,
 "plugs": [
 {
 "id": 141,
@@ -2384,8 +2354,8 @@
 {
 "type": 513,
 "id": 168,
-"x": 340,
-"y": 305,
+"x": 267,
+"y": 552,
 "plugs": [
 {
 "id": 169,
@@ -2402,8 +2372,8 @@
 {
 "type": 513,
 "id": 171,
-"x": 340,
-"y": 349,
+"x": 267,
+"y": 596,
 "plugs": [
 {
 "id": 172,
@@ -2420,8 +2390,8 @@
 {
 "type": 513,
 "id": 174,
-"x": 341,
-"y": 393,
+"x": 268,
+"y": 640,
 "plugs": [
 {
 "id": 175,
@@ -2438,8 +2408,8 @@
 {
 "type": 513,
 "id": 177,
-"x": 341,
-"y": 438,
+"x": 268,
+"y": 685,
 "plugs": [
 {
 "id": 178,
@@ -2456,7 +2426,8 @@
 {
 "type": 1287,
 "id": 180,
-"y": 629,
+"x": 453,
+"y": 112,
 "plugs": [
 {
 "id": 181,
@@ -2473,7 +2444,8 @@
 {
 "type": 1287,
 "id": 182,
-"y": 692,
+"x": 453,
+"y": 175,
 "plugs": [
 {
 "id": 183,
@@ -2490,8 +2462,8 @@
 {
 "type": 1287,
 "id": 184,
-"x": 1,
-"y": 756,
+"x": 454,
+"y": 239,
 "plugs": [
 {
 "id": 185,
@@ -2508,7 +2480,8 @@
 {
 "type": 1287,
 "id": 186,
-"y": 821,
+"x": 453,
+"y": 304,
 "plugs": [
 {
 "id": 187,
@@ -2525,8 +2498,8 @@
 {
 "type": 786,
 "id": 188,
-"x": 184,
-"y": 567,
+"x": 637,
+"y": 50,
 "plugs": [
 {
 "id": 189,
@@ -2543,8 +2516,8 @@
 {
 "type": 786,
 "id": 193,
-"x": 184,
-"y": 629,
+"x": 637,
+"y": 112,
 "plugs": [
 {
 "id": 194,
@@ -2561,8 +2534,8 @@
 {
 "type": 786,
 "id": 196,
-"x": 190,
-"y": 689,
+"x": 643,
+"y": 172,
 "plugs": [
 {
 "id": 197,
@@ -2579,8 +2552,8 @@
 {
 "type": 786,
 "id": 199,
-"x": 192,
-"y": 753,
+"x": 645,
+"y": 236,
 "plugs": [
 {
 "id": 200,
@@ -2597,8 +2570,8 @@
 {
 "type": 786,
 "id": 202,
-"x": 195,
-"y": 818,
+"x": 648,
+"y": 301,
 "plugs": [
 {
 "id": 203,
@@ -2615,8 +2588,8 @@
 {
 "type": 1302,
 "id": 656,
-"x": 97,
-"y": 343,
+"x": 6,
+"y": 563,
 "plugs": [
 {
 "id": 657,
@@ -2627,7 +2600,255 @@
 }
 ],
 "var_cmp": "==",
-"duration": "250"
+"duration": "$timehead"
+},
+{
+"type": 1302,
+"id": 1515,
+"x": -678,
+"y": 393,
+"plugs": [
+{
+"id": 1516,
+"type": 3,
+"trgs": [
+1586
+]
+}
+],
+"script": "set index 0\r\nset hexaNUMBER \"\"",
+"var_cmp": "==",
+"duration": "$timeupdate"
+},
+{
+"type": 513,
+"id": 1585,
+"x": -510,
+"y": 397,
+"plugs": [
+{
+"id": 1586,
+"type": 2
+},
+{
+"id": 1587,
+"type": 3,
+"trgs": [
+1743
+]
+}
+],
+"script": "\trandom randnumber 0 15\r\n\tif equal $randnumber 10\r\n\t\tcat hexaNUMBER A\r\n\telse_if equal $randnumber 11\r\n\t\tcat hexaNUMBER B\r\n\telse_if equal $randnumber 12\r\n\t\tcat hexaNUMBER C\r\n\telse_if equal $randnumber 13\r\n\t\tcat hexaNUMBER D\r\n\telse_if equal $randnumber 14\r\n\t\tcat hexaNUMBER E\r\n\telse_if equal $randnumber 15\r\n\t\tcat hexaNUMBER F\r\n\telse\r\n\t\tcat hexaNUMBER $randnumber\r\n\tend\r\n\tadd index 1\r\n\tif less $index 6\r\n\t\tloop\r\n\tend",
+"plugCount": 1
+},
+{
+"type": 784,
+"id": 1742,
+"x": -390,
+"y": 383,
+"plugs": [
+{
+"id": 1743,
+"type": 2
+},
+{
+"id": 1744,
+"type": 3
+}
+],
+"scene": "S_HEADGAME",
+"dx": "0",
+"dy": "0",
+"fade_out": "True",
+"fade_in": "False",
+"fade_color": "$hexaNUMBER",
+"duration": "32",
+"endless": "False"
+},
+{
+"type": 513,
+"id": 1961,
+"x": -204,
+"y": 71,
+"plugs": [
+{
+"id": 1962,
+"type": 2
+},
+{
+"id": 1963,
+"type": 3,
+"trgs": [
+1974
+]
+}
+],
+"script": "set nohide 0\r\nif visible S_HEADGAME FACE0\r\n\tadd nohide 1\r\nend\r\nif visible S_HEADGAME FACE1\r\n\tadd nohide 1\r\nend\r\nif visible S_HEADGAME FACE2\r\n\tadd nohide 1\r\nend\r\nif visible S_HEADGAME FACE3\r\n\tadd nohide 1\r\nend\r\nif visible S_HEADGAME FACE4\r\n\tadd nohide 1\r\nend",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 1973,
+"x": -87,
+"y": 63,
+"plugs": [
+{
+"id": 1974,
+"type": 2
+},
+{
+"id": 1975,
+"type": 3,
+"trgs": [
+2010
+]
+},
+{
+"id": 1976,
+"type": 3,
+"trgs": [
+2007
+]
+},
+{
+"id": 1977,
+"type": 3,
+"trgs": [
+2004
+]
+},
+{
+"id": 1978,
+"type": 3,
+"trgs": [
+2001
+]
+},
+{
+"id": 1979,
+"type": 3,
+"trgs": [
+1998
+]
+},
+{
+"id": 1980,
+"type": 3,
+"trgs": [
+1982
+]
+}
+],
+"script": "if equal $nohide 0\r\n\tout 0\r\nend\r\nif equal $nohide 1\r\n\tout 1\r\nend\r\nif equal $nohide 2\r\n\tout 2\r\nend\r\nif equal $nohide 3\r\n\tout 3\r\nend\r\nif equal $nohide 4\r\n\tout 4\r\nend\r\nif equal $nohide 5\r\n\tout 5\r\nend\r\nif equal $nohide 6\r\n\tout 6\r\nend",
+"plugCount": 6
+},
+{
+"type": 513,
+"id": 1981,
+"x": 47,
+"y": 244,
+"plugs": [
+{
+"id": 1982,
+"type": 2
+},
+{
+"id": 1983,
+"type": 3
+}
+],
+"script": "set timeupdate 3000\r\nset timehead 1000",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 1997,
+"x": 48,
+"y": 197,
+"plugs": [
+{
+"id": 1998,
+"type": 2
+},
+{
+"id": 1999,
+"type": 3
+}
+],
+"script": "set timeupdate 2500\r\nset timehead 900",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 2000,
+"x": 46,
+"y": 152,
+"plugs": [
+{
+"id": 2001,
+"type": 2
+},
+{
+"id": 2002,
+"type": 3
+}
+],
+"script": "set timeupdate 2000\r\nset timehead 800",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 2003,
+"x": 45,
+"y": 104,
+"plugs": [
+{
+"id": 2004,
+"type": 2
+},
+{
+"id": 2005,
+"type": 3
+}
+],
+"script": "set timeupdate 1500\r\nset timehead 700",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 2006,
+"x": 46,
+"y": 60,
+"plugs": [
+{
+"id": 2007,
+"type": 2
+},
+{
+"id": 2008,
+"type": 3
+}
+],
+"script": "set timeupdate 1000\r\nset timehead 600",
+"plugCount": 1
+},
+{
+"type": 513,
+"id": 2009,
+"x": 45,
+"y": 15,
+"plugs": [
+{
+"id": 2010,
+"type": 2
+},
+{
+"id": 2011,
+"type": 3
+}
+],
+"script": "set timeupdate 500\r\nset timehead 500",
+"plugCount": 1
 }
 ]
 }
@@ -69455,6 +69676,17 @@
 ]
 },
 "nextID": 8
+}
+}
+],
+"cinematics": [
+{
+"sid": 40,
+"uid": "C_TEST",
+"content": {
+"properties": {
+"skip": true
+}
 }
 }
 ]
