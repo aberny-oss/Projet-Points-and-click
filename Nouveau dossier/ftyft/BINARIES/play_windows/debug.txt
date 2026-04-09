@@ -1,12 +1,1 @@
 New Game
-success ok #15
-success failed (box not started) #18
-success failed (box not started) #21
-success failed (box not started) #24
-success ok #18
-success failed (box not started) #21
-success failed (box not started) #24
-success ok #21
-success failed (box not started) #24
-success ok #24
-success ok #12
