@@ -212,25 +212,25 @@
 }
 },
 "meta": {
-"nextAssetID": 37
+"nextAssetID": 39
 }
 },
 "puzzle": {
 "board": {
-"nextid": 8,
+"nextid": 23,
 "boxes": [
 {
 "type": 257,
 "id": 1,
 "name": "start",
-"x": 167,
-"y": 263,
+"x": 178,
+"y": 407,
 "plugs": [
 {
 "id": 2,
 "type": 3,
 "trgs": [
-6
+9
 ]
 }
 ]
@@ -239,8 +239,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 1009,
-"y": 344,
+"x": 1522,
+"y": 410,
 "plugs": [
 {
 "id": 4,
@@ -252,8 +252,8 @@
 "type": 256,
 "id": 5,
 "name": "#puzzle",
-"x": 487,
-"y": 362,
+"x": 1394,
+"y": 412,
 "plugs": [
 {
 "id": 6,
@@ -264,6 +264,106 @@
 "type": 3,
 "trgs": [
 4
+]
+}
+]
+},
+{
+"type": 256,
+"id": 8,
+"name": "#sequence_oiiae",
+"x": 498,
+"y": 410,
+"plugs": [
+{
+"id": 9,
+"type": 2
+},
+{
+"id": 10,
+"type": 3,
+"trgs": [
+12
+]
+}
+]
+},
+{
+"type": 256,
+"id": 11,
+"name": "#sequence_blue",
+"x": 661,
+"y": 406,
+"plugs": [
+{
+"id": 12,
+"type": 2
+},
+{
+"id": 13,
+"type": 3,
+"trgs": [
+15
+]
+}
+]
+},
+{
+"type": 256,
+"id": 14,
+"name": "#sequence_baby",
+"x": 825,
+"y": 411,
+"plugs": [
+{
+"id": 15,
+"type": 2
+},
+{
+"id": 16,
+"type": 3,
+"trgs": [
+18
+]
+}
+]
+},
+{
+"type": 256,
+"id": 17,
+"name": "#sequence_sugar",
+"x": 1002,
+"y": 414,
+"plugs": [
+{
+"id": 18,
+"type": 2
+},
+{
+"id": 19,
+"type": 3,
+"trgs": [
+21
+]
+}
+]
+},
+{
+"type": 256,
+"id": 20,
+"name": "#sequence_birthday",
+"x": 1194,
+"y": 415,
+"plugs": [
+{
+"id": 21,
+"type": 2
+},
+{
+"id": 22,
+"type": 3,
+"trgs": [
+6
 ]
 }
 ]
@@ -784,7 +884,7 @@
 "uid": "L_LOST",
 "graph": {
 "board": {
-"nextid": 2751,
+"nextid": 2820,
 "x": 23,
 "y": -25,
 "boxes": [
@@ -2231,9 +2331,9 @@
 "uid": "L_RYTHM",
 "graph": {
 "board": {
-"nextid": 421,
-"x": 79,
-"y": 331,
+"nextid": 1401,
+"x": 456,
+"y": -711,
 "boxes": [
 {
 "type": 257,
@@ -2261,6 +2361,7 @@
 ]
 }
 ],
+"script": "set click_toggle 0",
 "var_cmp": "==",
 "scene": "S_RYTHM",
 "instance": "RED_BUTTON"
@@ -2291,8 +2392,8 @@
 {
 "type": 1287,
 "id": 8,
-"x": 231,
-"y": 353,
+"x": 328,
+"y": 976,
 "plugs": [
 {
 "id": 9,
@@ -2309,8 +2410,8 @@
 {
 "type": 769,
 "id": 10,
-"x": 449,
-"y": 355,
+"x": 546,
+"y": 978,
 "plugs": [
 {
 "id": 11,
@@ -2332,8 +2433,8 @@
 {
 "type": 1287,
 "id": 13,
-"x": 230,
-"y": 474,
+"x": 207,
+"y": 1481,
 "plugs": [
 {
 "id": 14,
@@ -2350,8 +2451,8 @@
 {
 "type": 769,
 "id": 15,
-"x": 430,
-"y": 484,
+"x": 407,
+"y": 1491,
 "plugs": [
 {
 "id": 16,
@@ -2373,8 +2474,8 @@
 {
 "type": 1287,
 "id": 18,
-"x": 233,
-"y": 258,
+"x": 228,
+"y": 466,
 "plugs": [
 {
 "id": 19,
@@ -2391,8 +2492,8 @@
 {
 "type": 769,
 "id": 20,
-"x": 441,
-"y": 257,
+"x": 436,
+"y": 465,
 "plugs": [
 {
 "id": 21,
@@ -2414,8 +2515,8 @@
 {
 "type": 1287,
 "id": 23,
-"x": 253,
-"y": 688,
+"x": 191,
+"y": 2285,
 "plugs": [
 {
 "id": 24,
@@ -2432,8 +2533,8 @@
 {
 "type": 769,
 "id": 25,
-"x": 431,
-"y": 660,
+"x": 364,
+"y": 2286,
 "plugs": [
 {
 "id": 26,
@@ -2452,8 +2553,8 @@
 {
 "type": 1287,
 "id": 28,
-"x": 246,
-"y": 773,
+"x": 178,
+"y": 2427,
 "plugs": [
 {
 "id": 29,
@@ -2470,8 +2571,8 @@
 {
 "type": 769,
 "id": 30,
-"x": 423,
-"y": 773,
+"x": 352,
+"y": 2420,
 "plugs": [
 {
 "id": 31,
@@ -2497,7 +2598,7 @@
 "id": 34,
 "type": 3,
 "trgs": [
-36
+1346
 ]
 }
 ],
@@ -2507,31 +2608,10 @@
 "mode": "JUMP"
 },
 {
-"type": 771,
-"id": 35,
-"x": 307,
-"y": -10,
-"plugs": [
-{
-"id": 36,
-"type": 2
-},
-{
-"id": 37,
-"type": 3,
-"trgs": [
-39
-]
-}
-],
-"lock": true,
-"duration": "2000"
-},
-{
 "type": 787,
 "id": 38,
-"x": 441,
-"y": -37,
+"x": 600,
+"y": -69,
 "plugs": [
 {
 "id": 39,
@@ -2556,8 +2636,8 @@
 {
 "type": 771,
 "id": 41,
-"x": 588,
-"y": -42,
+"x": 769,
+"y": -85,
 "plugs": [
 {
 "id": 42,
@@ -2599,8 +2679,8 @@
 {
 "type": 787,
 "id": 47,
-"x": 654,
-"y": 252,
+"x": 649,
+"y": 460,
 "plugs": [
 {
 "id": 48,
@@ -2624,8 +2704,8 @@
 {
 "type": 787,
 "id": 50,
-"x": 644,
-"y": 359,
+"x": 741,
+"y": 982,
 "plugs": [
 {
 "id": 51,
@@ -2649,8 +2729,8 @@
 {
 "type": 787,
 "id": 53,
-"x": 614,
-"y": 483,
+"x": 591,
+"y": 1490,
 "plugs": [
 {
 "id": 54,
@@ -2685,18 +2765,18 @@
 "id": 58,
 "type": 3,
 "trgs": [
-78
+610
 ]
 }
 ],
-"script": "add result \"1\"\r\nadd count 1\r\n\r\nout 0",
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\r\ncat result \"1\"\r\nadd count 1\r\n\r\nout 0",
 "plugCount": 1
 },
 {
 "type": 513,
 "id": 68,
-"x": 793,
-"y": 249,
+"x": 848,
+"y": 472,
 "plugs": [
 {
 "id": 69,
@@ -2706,18 +2786,18 @@
 "id": 70,
 "type": 3,
 "trgs": [
-99
+841
 ]
 }
 ],
-"script": "add result \"2\"\r\nadd count 1\r\n\r\nout 0",
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\r\ncat result \"2\"\r\nadd count 1\r\n\r\nout 0",
 "plugCount": 1
 },
 {
 "type": 513,
 "id": 71,
-"x": 793,
-"y": 358,
+"x": 890,
+"y": 981,
 "plugs": [
 {
 "id": 72,
@@ -2727,18 +2807,18 @@
 "id": 73,
 "type": 3,
 "trgs": [
-103
+893
 ]
 }
 ],
-"script": "add result \"3\"\r\nadd count 1\r\n\r\nout 0",
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\r\ncat result \"3\"\r\nadd count 1\r\n\r\nout 0",
 "plugCount": 1
 },
 {
 "type": 513,
 "id": 74,
-"x": 765,
-"y": 481,
+"x": 742,
+"y": 1488,
 "plugs": [
 {
 "id": 75,
@@ -2748,18 +2828,18 @@
 "id": 76,
 "type": 3,
 "trgs": [
-107
+945
 ]
 }
 ],
-"script": "add result \"4\"\r\nadd count 1\r\n\r\nout 0",
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\r\ncat result \"4\"\r\nadd count 1\r\n\r\nout 0",
 "plugCount": 1
 },
 {
 "type": 513,
 "id": 77,
-"x": 921,
-"y": 100,
+"x": 1241,
+"y": 71,
 "plugs": [
 {
 "id": 78,
@@ -2777,140 +2857,14 @@
 "type": 3
 }
 ],
-"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend \r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 5 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
 "plugCount": 2
-},
-{
-"type": 513,
-"id": 98,
-"x": 922,
-"y": 238,
-"plugs": [
-{
-"id": 99,
-"type": 2
-},
-{
-"id": 100,
-"type": 3,
-"trgs": [
-128
-]
-},
-{
-"id": 101,
-"type": 3
-}
-],
-"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5  \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
-"plugCount": 2
-},
-{
-"type": 513,
-"id": 102,
-"x": 919,
-"y": 358,
-"plugs": [
-{
-"id": 103,
-"type": 2
-},
-{
-"id": 104,
-"type": 3,
-"trgs": [
-125
-]
-},
-{
-"id": 105,
-"type": 3
-}
-],
-"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
-"plugCount": 2
-},
-{
-"type": 513,
-"id": 106,
-"x": 882,
-"y": 480,
-"plugs": [
-{
-"id": 107,
-"type": 2
-},
-{
-"id": 108,
-"type": 3,
-"trgs": [
-122
-]
-},
-{
-"id": 109,
-"type": 3
-}
-],
-"script": "add click_toggle 1\r\nmod click_toggle 2\r\n\r\nif equal $click_toggle \"1\"\r\n\tif equal count 5 \r\n\t\tout 0\r\n\tend\r\nelse \r\n\tout 1\r\nend\r\n ",
-"plugCount": 2
-},
-{
-"type": 791,
-"id": 121,
-"x": 1015,
-"y": 472,
-"plugs": [
-{
-"id": 122,
-"type": 2
-},
-{
-"id": 123,
-"type": 3
-}
-],
-"name": "VERIF_RESULT"
-},
-{
-"type": 791,
-"id": 124,
-"x": 1049,
-"y": 359,
-"plugs": [
-{
-"id": 125,
-"type": 2
-},
-{
-"id": 126,
-"type": 3
-}
-],
-"name": "VERIF_RESULT"
-},
-{
-"type": 791,
-"id": 127,
-"x": 1047,
-"y": 232,
-"plugs": [
-{
-"id": 128,
-"type": 2
-},
-{
-"id": 129,
-"type": 3
-}
-],
-"name": "VERIF_RESULT"
 },
 {
 "type": 791,
 "id": 130,
-"x": 1063,
-"y": 92,
+"x": 1446,
+"y": 56,
 "plugs": [
 {
 "id": 131,
@@ -2926,8 +2880,8 @@
 {
 "type": 264,
 "id": 242,
-"x": 1072,
-"y": 681,
+"x": 1314,
+"y": 2335,
 "plugs": [
 {
 "id": 243,
@@ -2943,8 +2897,8 @@
 {
 "type": 513,
 "id": 244,
-"x": 1303,
-"y": 672,
+"x": 1605,
+"y": 2304,
 "plugs": [
 {
 "id": 245,
@@ -2954,22 +2908,46 @@
 "id": 246,
 "type": 3,
 "trgs": [
-249
+507
 ]
 },
 {
 "id": 247,
-"type": 3
+"type": 3,
+"trgs": [
+646
+]
+},
+{
+"id": 631,
+"type": 3,
+"trgs": [
+708
+]
+},
+{
+"id": 700,
+"type": 3,
+"trgs": [
+1349
+]
+},
+{
+"id": 713,
+"type": 3,
+"trgs": [
+1355
+]
 }
 ],
-"script": "\r\n\r\nif equal result \"12234\"\r\n\tout 0\r\nelse \r\n\tout 1\r\nend \r\n",
-"plugCount": 2
+"script": "if equal $result \"12234\"\r\n\tset result \"\"\r\n\tset count 0\r\n\tout 0\r\nelse_if equal $result \"31231331213312313312313\"\r\n\tset result \"\"\r\n\tset count 0\r\n\tout 1\r\nelse_if equal $result \"1313322333322321233\"\r\n\tset result \"\"\r\n\tset count 0\r\n\tout 2\r\nelse_if equal $result \"32113132232321131322\"\r\n\tset result \"\"\r\n\tset count 0\r\n\tout 3\r\nelse\r\n\tset result \"\"\r\n\tset count 0\r\n\tout 4\r\nend ",
+"plugCount": 5
 },
 {
 "type": 787,
 "id": 248,
-"x": 1484,
-"y": 632,
+"x": 2230,
+"y": 2021,
 "plugs": [
 {
 "id": 249,
@@ -2980,10 +2958,1654 @@
 "type": 3
 }
 ],
-"song": "CHIPI_CHIPI_CHAPA",
+"song": "IM_BLUE",
 "channel": "0",
 "volume": "100",
-"loop": "True",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 780,
+"id": 506,
+"x": 1854,
+"y": 2076,
+"plugs": [
+{
+"id": 507,
+"type": 2
+},
+{
+"id": 508,
+"type": 3,
+"trgs": [
+1370
+]
+}
+],
+"puzzle": "#sequence_oiiae"
+},
+{
+"type": 1031,
+"id": 609,
+"x": 962,
+"y": 32,
+"plugs": [
+{
+"id": 610,
+"type": 2
+},
+{
+"id": 611,
+"type": 3,
+"trgs": [
+652
+]
+},
+{
+"id": 612,
+"type": 3
+},
+{
+"id": 613,
+"type": 3,
+"trgs": [
+78
+]
+},
+{
+"id": 614,
+"type": 3
+}
+],
+"puzzle": "#sequence_oiiae"
+},
+{
+"type": 513,
+"id": 615,
+"x": 1408,
+"y": -57,
+"plugs": [
+{
+"id": 616,
+"type": 2
+},
+{
+"id": 617,
+"type": 3,
+"trgs": [
+649
+]
+},
+{
+"id": 618,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 24 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 787,
+"id": 639,
+"x": 2212,
+"y": 2129,
+"plugs": [
+{
+"id": 640,
+"type": 2
+},
+{
+"id": 641,
+"type": 3
+}
+],
+"song": "BABY_ONE_MORE_TIME",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 780,
+"id": 645,
+"x": 1840,
+"y": 2162,
+"plugs": [
+{
+"id": 646,
+"type": 2
+},
+{
+"id": 647,
+"type": 3,
+"trgs": [
+1367
+]
+}
+],
+"puzzle": "#sequence_blue"
+},
+{
+"type": 791,
+"id": 648,
+"x": 1682,
+"y": -51,
+"plugs": [
+{
+"id": 649,
+"type": 2
+},
+{
+"id": 650,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 651,
+"x": 1154,
+"y": -96,
+"plugs": [
+{
+"id": 652,
+"type": 2
+},
+{
+"id": 653,
+"type": 3,
+"trgs": [
+658
+]
+},
+{
+"id": 654,
+"type": 3
+},
+{
+"id": 655,
+"type": 3,
+"trgs": [
+616
+]
+},
+{
+"id": 656,
+"type": 3
+}
+],
+"puzzle": "#sequence_blue"
+},
+{
+"type": 1031,
+"id": 657,
+"x": 1342,
+"y": -254,
+"plugs": [
+{
+"id": 658,
+"type": 2
+},
+{
+"id": 659,
+"type": 3,
+"trgs": [
+664
+]
+},
+{
+"id": 660,
+"type": 3
+},
+{
+"id": 661,
+"type": 3,
+"trgs": [
+680
+]
+},
+{
+"id": 662,
+"type": 3
+}
+],
+"puzzle": "#sequence_baby"
+},
+{
+"type": 1031,
+"id": 663,
+"x": 1547,
+"y": -345,
+"plugs": [
+{
+"id": 664,
+"type": 2
+},
+{
+"id": 665,
+"type": 3
+},
+{
+"id": 666,
+"type": 3
+},
+{
+"id": 667,
+"type": 3,
+"trgs": [
+687
+]
+},
+{
+"id": 668,
+"type": 3
+}
+],
+"puzzle": "#sequence_sugar"
+},
+{
+"type": 513,
+"id": 679,
+"x": 1581,
+"y": -180,
+"plugs": [
+{
+"id": 680,
+"type": 2
+},
+{
+"id": 681,
+"type": 3,
+"trgs": [
+684
+]
+},
+{
+"id": 682,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 19 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 683,
+"x": 1813,
+"y": -177,
+"plugs": [
+{
+"id": 684,
+"type": 2
+},
+{
+"id": 685,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 686,
+"x": 1736,
+"y": -296,
+"plugs": [
+{
+"id": 687,
+"type": 2
+},
+{
+"id": 688,
+"type": 3,
+"trgs": [
+691
+]
+},
+{
+"id": 689,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 20 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 690,
+"x": 1968,
+"y": -293,
+"plugs": [
+{
+"id": 691,
+"type": 2
+},
+{
+"id": 692,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 780,
+"id": 707,
+"x": 1836,
+"y": 2252,
+"plugs": [
+{
+"id": 708,
+"type": 2
+},
+{
+"id": 709,
+"type": 3,
+"trgs": [
+1364
+]
+}
+],
+"puzzle": "#sequence_baby"
+},
+{
+"type": 787,
+"id": 710,
+"x": 2220,
+"y": 2247,
+"plugs": [
+{
+"id": 711,
+"type": 2
+},
+{
+"id": 712,
+"type": 3
+}
+],
+"song": "SUGAR",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 513,
+"id": 833,
+"x": 1342,
+"y": 538,
+"plugs": [
+{
+"id": 834,
+"type": 2
+},
+{
+"id": 835,
+"type": 3,
+"trgs": [
+838
+]
+},
+{
+"id": 836,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 5 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 837,
+"x": 1499,
+"y": 536,
+"plugs": [
+{
+"id": 838,
+"type": 2
+},
+{
+"id": 839,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 840,
+"x": 1063,
+"y": 499,
+"plugs": [
+{
+"id": 841,
+"type": 2
+},
+{
+"id": 842,
+"type": 3,
+"trgs": [
+854
+]
+},
+{
+"id": 843,
+"type": 3
+},
+{
+"id": 844,
+"type": 3,
+"trgs": [
+834
+]
+},
+{
+"id": 845,
+"type": 3
+}
+],
+"puzzle": "#sequence_oiiae"
+},
+{
+"type": 513,
+"id": 846,
+"x": 1510,
+"y": 413,
+"plugs": [
+{
+"id": 847,
+"type": 2
+},
+{
+"id": 848,
+"type": 3,
+"trgs": [
+851
+]
+},
+{
+"id": 849,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 24 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 850,
+"x": 1742,
+"y": 416,
+"plugs": [
+{
+"id": 851,
+"type": 2
+},
+{
+"id": 852,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 853,
+"x": 1252,
+"y": 342,
+"plugs": [
+{
+"id": 854,
+"type": 2
+},
+{
+"id": 855,
+"type": 3,
+"trgs": [
+860
+]
+},
+{
+"id": 856,
+"type": 3
+},
+{
+"id": 857,
+"type": 3,
+"trgs": [
+847
+]
+},
+{
+"id": 858,
+"type": 3
+}
+],
+"puzzle": "#sequence_blue"
+},
+{
+"type": 1031,
+"id": 859,
+"x": 1443,
+"y": 213,
+"plugs": [
+{
+"id": 860,
+"type": 2
+},
+{
+"id": 861,
+"type": 3,
+"trgs": [
+866
+]
+},
+{
+"id": 862,
+"type": 3
+},
+{
+"id": 863,
+"type": 3,
+"trgs": [
+872
+]
+},
+{
+"id": 864,
+"type": 3
+}
+],
+"puzzle": "#sequence_baby"
+},
+{
+"type": 1031,
+"id": 865,
+"x": 1648,
+"y": 122,
+"plugs": [
+{
+"id": 866,
+"type": 2
+},
+{
+"id": 867,
+"type": 3
+},
+{
+"id": 868,
+"type": 3
+},
+{
+"id": 869,
+"type": 3,
+"trgs": [
+879
+]
+},
+{
+"id": 870,
+"type": 3
+}
+],
+"puzzle": "#sequence_sugar"
+},
+{
+"type": 513,
+"id": 871,
+"x": 1682,
+"y": 287,
+"plugs": [
+{
+"id": 872,
+"type": 2
+},
+{
+"id": 873,
+"type": 3,
+"trgs": [
+876
+]
+},
+{
+"id": 874,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 19 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 875,
+"x": 1914,
+"y": 290,
+"plugs": [
+{
+"id": 876,
+"type": 2
+},
+{
+"id": 877,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 878,
+"x": 1837,
+"y": 171,
+"plugs": [
+{
+"id": 879,
+"type": 2
+},
+{
+"id": 880,
+"type": 3,
+"trgs": [
+883
+]
+},
+{
+"id": 881,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 20 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 882,
+"x": 2069,
+"y": 174,
+"plugs": [
+{
+"id": 883,
+"type": 2
+},
+{
+"id": 884,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 885,
+"x": 1511,
+"y": 1059,
+"plugs": [
+{
+"id": 886,
+"type": 2
+},
+{
+"id": 887,
+"type": 3,
+"trgs": [
+890
+]
+},
+{
+"id": 888,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 5 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 889,
+"x": 1668,
+"y": 1057,
+"plugs": [
+{
+"id": 890,
+"type": 2
+},
+{
+"id": 891,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 892,
+"x": 1211,
+"y": 992,
+"plugs": [
+{
+"id": 893,
+"type": 2
+},
+{
+"id": 894,
+"type": 3,
+"trgs": [
+906
+]
+},
+{
+"id": 895,
+"type": 3
+},
+{
+"id": 896,
+"type": 3,
+"trgs": [
+886
+]
+},
+{
+"id": 897,
+"type": 3
+}
+],
+"puzzle": "#sequence_oiiae"
+},
+{
+"type": 513,
+"id": 898,
+"x": 1679,
+"y": 934,
+"plugs": [
+{
+"id": 899,
+"type": 2
+},
+{
+"id": 900,
+"type": 3,
+"trgs": [
+903
+]
+},
+{
+"id": 901,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 24 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 902,
+"x": 1911,
+"y": 937,
+"plugs": [
+{
+"id": 903,
+"type": 2
+},
+{
+"id": 904,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 905,
+"x": 1424,
+"y": 892,
+"plugs": [
+{
+"id": 906,
+"type": 2
+},
+{
+"id": 907,
+"type": 3,
+"trgs": [
+912
+]
+},
+{
+"id": 908,
+"type": 3
+},
+{
+"id": 909,
+"type": 3,
+"trgs": [
+899
+]
+},
+{
+"id": 910,
+"type": 3
+}
+],
+"puzzle": "#sequence_blue"
+},
+{
+"type": 1031,
+"id": 911,
+"x": 1612,
+"y": 734,
+"plugs": [
+{
+"id": 912,
+"type": 2
+},
+{
+"id": 913,
+"type": 3,
+"trgs": [
+918
+]
+},
+{
+"id": 914,
+"type": 3
+},
+{
+"id": 915,
+"type": 3,
+"trgs": [
+924
+]
+},
+{
+"id": 916,
+"type": 3
+}
+],
+"puzzle": "#sequence_baby"
+},
+{
+"type": 1031,
+"id": 917,
+"x": 1817,
+"y": 643,
+"plugs": [
+{
+"id": 918,
+"type": 2
+},
+{
+"id": 919,
+"type": 3
+},
+{
+"id": 920,
+"type": 3
+},
+{
+"id": 921,
+"type": 3,
+"trgs": [
+931
+]
+},
+{
+"id": 922,
+"type": 3
+}
+],
+"puzzle": "#sequence_sugar"
+},
+{
+"type": 513,
+"id": 923,
+"x": 1851,
+"y": 808,
+"plugs": [
+{
+"id": 924,
+"type": 2
+},
+{
+"id": 925,
+"type": 3,
+"trgs": [
+928
+]
+},
+{
+"id": 926,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 19 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 927,
+"x": 2083,
+"y": 811,
+"plugs": [
+{
+"id": 928,
+"type": 2
+},
+{
+"id": 929,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 930,
+"x": 2006,
+"y": 692,
+"plugs": [
+{
+"id": 931,
+"type": 2
+},
+{
+"id": 932,
+"type": 3,
+"trgs": [
+935
+]
+},
+{
+"id": 933,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 20 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 934,
+"x": 2238,
+"y": 695,
+"plugs": [
+{
+"id": 935,
+"type": 2
+},
+{
+"id": 936,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 937,
+"x": 1359,
+"y": 1633,
+"plugs": [
+{
+"id": 938,
+"type": 2
+},
+{
+"id": 939,
+"type": 3,
+"trgs": [
+942
+]
+},
+{
+"id": 940,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 5 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 941,
+"x": 1516,
+"y": 1631,
+"plugs": [
+{
+"id": 942,
+"type": 2
+},
+{
+"id": 943,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 944,
+"x": 1080,
+"y": 1594,
+"plugs": [
+{
+"id": 945,
+"type": 2
+},
+{
+"id": 946,
+"type": 3,
+"trgs": [
+958
+]
+},
+{
+"id": 947,
+"type": 3
+},
+{
+"id": 948,
+"type": 3,
+"trgs": [
+938
+]
+},
+{
+"id": 949,
+"type": 3
+}
+],
+"puzzle": "#sequence_oiiae"
+},
+{
+"type": 513,
+"id": 950,
+"x": 1527,
+"y": 1508,
+"plugs": [
+{
+"id": 951,
+"type": 2
+},
+{
+"id": 952,
+"type": 3,
+"trgs": [
+955
+]
+},
+{
+"id": 953,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 24 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 954,
+"x": 1759,
+"y": 1511,
+"plugs": [
+{
+"id": 955,
+"type": 2
+},
+{
+"id": 956,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 1031,
+"id": 957,
+"x": 1272,
+"y": 1466,
+"plugs": [
+{
+"id": 958,
+"type": 2
+},
+{
+"id": 959,
+"type": 3,
+"trgs": [
+964
+]
+},
+{
+"id": 960,
+"type": 3
+},
+{
+"id": 961,
+"type": 3,
+"trgs": [
+951
+]
+},
+{
+"id": 962,
+"type": 3
+}
+],
+"puzzle": "#sequence_blue"
+},
+{
+"type": 1031,
+"id": 963,
+"x": 1460,
+"y": 1308,
+"plugs": [
+{
+"id": 964,
+"type": 2
+},
+{
+"id": 965,
+"type": 3,
+"trgs": [
+970
+]
+},
+{
+"id": 966,
+"type": 3
+},
+{
+"id": 967,
+"type": 3,
+"trgs": [
+976
+]
+},
+{
+"id": 968,
+"type": 3
+}
+],
+"puzzle": "#sequence_baby"
+},
+{
+"type": 1031,
+"id": 969,
+"x": 1665,
+"y": 1217,
+"plugs": [
+{
+"id": 970,
+"type": 2
+},
+{
+"id": 971,
+"type": 3
+},
+{
+"id": 972,
+"type": 3
+},
+{
+"id": 973,
+"type": 3,
+"trgs": [
+983
+]
+},
+{
+"id": 974,
+"type": 3
+}
+],
+"puzzle": "#sequence_sugar"
+},
+{
+"type": 513,
+"id": 975,
+"x": 1699,
+"y": 1382,
+"plugs": [
+{
+"id": 976,
+"type": 2
+},
+{
+"id": 977,
+"type": 3,
+"trgs": [
+980
+]
+},
+{
+"id": 978,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 19 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 979,
+"x": 1931,
+"y": 1385,
+"plugs": [
+{
+"id": 980,
+"type": 2
+},
+{
+"id": 981,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 513,
+"id": 982,
+"x": 1854,
+"y": 1266,
+"plugs": [
+{
+"id": 983,
+"type": 2
+},
+{
+"id": 984,
+"type": 3,
+"trgs": [
+987
+]
+},
+{
+"id": 985,
+"type": 3
+}
+],
+"script": "add click_toggle 1\r\nif equal $click_toggle 2\r\n\tset click_toggle 0\r\n\treturn\r\nend\r\n\t\r\nif equal $count 20 \r\n\tout 0\r\nelse \r\n\tout 1\r\nend\r\n\r\n\r\n ",
+"plugCount": 2
+},
+{
+"type": 791,
+"id": 986,
+"x": 2086,
+"y": 1269,
+"plugs": [
+{
+"id": 987,
+"type": 2
+},
+{
+"id": 988,
+"type": 3
+}
+],
+"name": "VERIF_RESULT"
+},
+{
+"type": 781,
+"id": 1345,
+"x": 320,
+"y": -100,
+"plugs": [
+{
+"id": 1346,
+"type": 2
+},
+{
+"id": 1347,
+"type": 3,
+"trgs": [
+39
+]
+}
+],
+"lock": true,
+"dialog": "D_RYTHM",
+"sentence": "1"
+},
+{
+"type": 780,
+"id": 1348,
+"x": 1789,
+"y": 2343,
+"plugs": [
+{
+"id": 1349,
+"type": 2
+},
+{
+"id": 1350,
+"type": 3,
+"trgs": [
+1361
+]
+}
+],
+"puzzle": "#sequence_sugar"
+},
+{
+"type": 787,
+"id": 1351,
+"x": 2229,
+"y": 2351,
+"plugs": [
+{
+"id": 1352,
+"type": 2
+},
+{
+"id": 1353,
+"type": 3
+}
+],
+"song": "NONAME",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 781,
+"id": 1354,
+"x": 1822,
+"y": 2461,
+"plugs": [
+{
+"id": 1355,
+"type": 2
+},
+{
+"id": 1356,
+"type": 3
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "5"
+},
+{
+"type": 781,
+"id": 1360,
+"x": 1984,
+"y": 2354,
+"plugs": [
+{
+"id": 1361,
+"type": 2
+},
+{
+"id": 1362,
+"type": 3,
+"trgs": [
+1352
+]
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "12"
+},
+{
+"type": 781,
+"id": 1363,
+"x": 2003,
+"y": 2251,
+"plugs": [
+{
+"id": 1364,
+"type": 2
+},
+{
+"id": 1365,
+"type": 3,
+"trgs": [
+711
+]
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "2"
+},
+{
+"type": 781,
+"id": 1366,
+"x": 2011,
+"y": 2141,
+"plugs": [
+{
+"id": 1367,
+"type": 2
+},
+{
+"id": 1368,
+"type": 3,
+"trgs": [
+640
+]
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "2"
+},
+{
+"type": 781,
+"id": 1369,
+"x": 2003,
+"y": 2032,
+"plugs": [
+{
+"id": 1370,
+"type": 2
+},
+{
+"id": 1371,
+"type": 3,
+"trgs": [
+249
+]
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "2"
+},
+{
+"type": 1287,
+"id": 1372,
+"x": 324,
+"y": 1934,
+"plugs": [
+{
+"id": 1373,
+"type": 3,
+"trgs": [
+1375
+]
+}
+],
+"var_cmp": "==",
+"scene": "S_RYTHM",
+"instance": "OIIA_CAT"
+},
+{
+"type": 781,
+"id": 1374,
+"x": 532,
+"y": 1913,
+"plugs": [
+{
+"id": 1375,
+"type": 2
+},
+{
+"id": 1376,
+"type": 3
+}
+],
+"dialog": "D_RYTHM",
+"sentence": "6"
+},
+{
+"type": 1286,
+"id": 1381,
+"x": 843,
+"y": 1848,
+"plugs": [
+{
+"id": 1382,
+"type": 3,
+"trgs": [
+1384
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_RYTHM",
+"sentence": "7"
+},
+{
+"type": 787,
+"id": 1383,
+"x": 1046,
+"y": 1846,
+"plugs": [
+{
+"id": 1384,
+"type": 2
+},
+{
+"id": 1385,
+"type": 3
+}
+],
+"song": "OIIAE",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 1286,
+"id": 1386,
+"x": 814,
+"y": 1985,
+"plugs": [
+{
+"id": 1387,
+"type": 3,
+"trgs": [
+1389
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_RYTHM",
+"sentence": "8"
+},
+{
+"type": 787,
+"id": 1388,
+"x": 1017,
+"y": 1983,
+"plugs": [
+{
+"id": 1389,
+"type": 2
+},
+{
+"id": 1390,
+"type": 3
+}
+],
+"song": "IM_BLUE",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 1286,
+"id": 1391,
+"x": 787,
+"y": 2126,
+"plugs": [
+{
+"id": 1392,
+"type": 3,
+"trgs": [
+1394
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_RYTHM",
+"sentence": "9"
+},
+{
+"type": 787,
+"id": 1393,
+"x": 1020,
+"y": 2132,
+"plugs": [
+{
+"id": 1394,
+"type": 2
+},
+{
+"id": 1395,
+"type": 3
+}
+],
+"song": "BABY_ONE_MORE_TIME",
+"channel": "0",
+"volume": "100",
+"loop": "False",
+"crossfade": "0",
+"last": "False"
+},
+{
+"type": 1286,
+"id": 1396,
+"x": 795,
+"y": 2278,
+"plugs": [
+{
+"id": 1397,
+"type": 3,
+"trgs": [
+1399
+]
+}
+],
+"var_cmp": "==",
+"dialog": "D_RYTHM",
+"sentence": "10"
+},
+{
+"type": 787,
+"id": 1398,
+"x": 998,
+"y": 2276,
+"plugs": [
+{
+"id": 1399,
+"type": 2
+},
+{
+"id": 1400,
+"type": 3
+}
+],
+"song": "SUGAR",
+"channel": "0",
+"volume": "100",
+"loop": "False",
 "crossfade": "0",
 "last": "False"
 }
@@ -22388,10 +24010,10 @@
 "content": {
 "light_ambient": -1,
 "light_blur": -1,
-"zoom": 48,
+"zoom": 63,
 "x": -134,
 "y": -145,
-"nextID": 75
+"nextID": 76
 },
 "layers": {
 "BACK": {
@@ -26045,6 +27667,56 @@
 ],
 "x": 775,
 "y": 500,
+"parallax": 100,
+"opacity": 100,
+"light_ambient": 255,
+"light_diffuse": 16777215,
+"light_angle": 30,
+"light_dist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"name": "OIIA_CAT",
+"depths": [
+{
+"a": 50,
+"b": 100
+},
+{
+"y": 1072,
+"a": 50,
+"b": 100
+}
+],
+"uid": "O_OIIA_CAT",
+"id": 75,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 454,
+"y": 691,
 "parallax": 100,
 "opacity": 100,
 "light_ambient": 255,
@@ -35949,6 +37621,160 @@
 }
 ]
 }
+},
+{
+"sid": 37,
+"uid": "O_OIIA_CAT",
+"content": {
+"bbox": true,
+"width": 526,
+"height": 508,
+"x": 291,
+"y": 510
+},
+"icons": [
+{},
+{},
+{},
+{}
+],
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"image": {
+"hi": {
+"aid": "a893b0baae972a50"
+},
+"lo": {
+"aid": "00d55fca0ef7e49f"
+}
+},
+"x": 87,
+"y": 47,
+"w": 346,
+"h": 444
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loop_range_max": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loop_count": -1
+}
+],
+"packset": {
+"frames": [
+{
+"index2": -1,
+"w": 346,
+"h": 444
+}
+],
+"packs": [
+{
+"count": 1,
+"collider": {
+"aid": "df63b757260cd88a"
+},
+"texture": {
+"aid": "f9ccccc877fec990"
+}
+}
+]
+}
 }
 ],
 "players": [
@@ -36242,6 +38068,170 @@
 ]
 },
 "nextID": 3
+}
+},
+{
+"sid": 38,
+"uid": "D_RYTHM",
+"content": {
+"sentence": {
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"sentences": [
+{
+"id": 1,
+"text": {
+"en": "Salut ! tu viens d'arriver dans ce mini-jeu.\r\nUne séquence audio va se jouer, a toi de refaire cette séquence en cliquant sur les bon boutons.\r\nReviens vers moi si tu souhaite réecouter un son si tu n'a pas bien entendu.\r\nBonne chance ! "
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_OIIA_CAT"
+},
+{
+"id": 2,
+"text": {
+"en": "Attention prochain son !"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_OIIA_CAT"
+},
+{
+"id": 5,
+"text": {
+"en": "Dommage tu n'a pas réussi recommence !\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_OIIA_CAT"
+},
+{
+"id": 6,
+"text": {
+"en": "Quel son souhaite-tu réecouter ?"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"sentences": [
+{
+"id": 7,
+"choice": true,
+"text": {
+"en": "OIIA\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true,
+"exit": true
+},
+{
+"id": 8,
+"choice": true,
+"text": {
+"en": "I'm blue\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true,
+"exit": true
+},
+{
+"id": 9,
+"choice": true,
+"text": {
+"en": "Baby it me one more time\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true,
+"exit": true
+},
+{
+"id": 10,
+"choice": true,
+"text": {
+"en": "Sugar\r\n\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"never_hide": true,
+"exit": true
+}
+],
+"speaker": "O_OIIA_CAT"
+},
+{
+"id": 12,
+"text": {
+"en": "Bravo tu réussi ce mini-jeu !\r\nVoila ta récompense.\r\n"
+},
+"voice": {
+"en": [
+{},
+{},
+{},
+{}
+]
+},
+"speaker": "O_OIIA_CAT"
+}
+]
+},
+"nextID": 13
 }
 }
 ],
